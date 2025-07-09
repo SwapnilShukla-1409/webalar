@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+}
+
+.auth-container {
+  max-width: 300px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.board {
+  padding: 20px;
+}
+
+.kanban {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.column {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 30%;
+  min-width: 250px;
+}
+
+.task-card {
+  background: #e3e3e3;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+
+.task-actions button {
+  margin-right: 5px;
+}
+
+.log-panel {
+  margin-top: 20px;
+  background: #fff;
+  padding: 10px;
+}
